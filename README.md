@@ -10,8 +10,8 @@ This is a minimal React site created with Vite with an implemented React Router 
 - Sass
 - React Router (v6) 
 - only one Sass file (`App.scss`) - the file `index.css` was deleted
-- page-load flicker bug fixed in index.html:
 - CLI with page component creator: `npm run cp`
+- page-load flicker bug fixed in index.html:
 ```
   <style>
     body {
