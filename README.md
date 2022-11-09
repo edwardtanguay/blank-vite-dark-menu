@@ -2,7 +2,7 @@
 
 This is a minimal React site created with Vite with an implemented React Router menu.
 
-TODO: screenshot
+![grafik](https://user-images.githubusercontent.com/446574/200960596-bdc5bd34-ca8c-4c03-9c0f-e67e9bf7d111.png)
 
 ## includes:
 
