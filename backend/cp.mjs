@@ -14,7 +14,7 @@ if (name === undefined) {
 export const Page${name} = () => {
 	return (
 		<>
-			<p>Welcome to ${name} page.</p>
+			<p>This is the ${name} page.</p>
 		</>
 	);
 };
