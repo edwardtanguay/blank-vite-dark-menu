@@ -1,8 +1,8 @@
 import './App.scss';
 import { NavLink, Routes, Route, Navigate } from 'react-router-dom';
-import { PageWelcome } from './components/PageWelcome';
-import { PageInfo } from './components/PageInfo';
-import { PageAbout } from './components/PageAbout';
+import { PageWelcome } from './pages/PageWelcome';
+import { PageInfo } from './pages/PageInfo';
+import { PageAbout } from './pages/PageAbout';
 
 function App() {
 	return (
