@@ -5,7 +5,6 @@ export const PageProducts = () => {
 
 	return (
 		<div className="page pageProducts">
-			<p>This is the Products page.</p>
 			<p>Showing product {id}</p>
 		</div>
 	);
