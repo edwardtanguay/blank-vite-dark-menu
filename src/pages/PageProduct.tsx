@@ -1,10 +1,10 @@
 import { useParams } from 'react-router-dom';
 
-export const PageProducts = () => {
+export const PageProduct = () => {
 	const { id } = useParams();
 
 	return (
-		<div className="page pageProducts">
+		<div className="page pageProduct">
 			<p>Showing product {id}</p>
 		</div>
 	);

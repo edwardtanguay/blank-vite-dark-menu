@@ -3,7 +3,7 @@ import { NavLink, Routes, Route, Navigate } from 'react-router-dom';
 import { PageWelcome } from './pages/PageWelcome';
 import { PageInfo } from './pages/PageInfo';
 import { PageAbout } from './pages/PageAbout';
-import { PageProducts } from './pages/PageProducts';
+import { PageProduct } from './pages/PageProduct';
 
 function App() {
 	return (
@@ -18,7 +18,7 @@ function App() {
 			<Routes>
 				<Route path="/welcome" element={<PageWelcome />} />
 				<Route path="/info" element={<PageInfo />} />
-				<Route path="/products" element={<PageProducts />}>
+				<Route path="/product" element={<PageProduct />}>
 					<Route path=":id" />
 				</Route>
 				<Route path="/about" element={<PageAbout />} />
