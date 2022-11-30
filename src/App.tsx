@@ -5,6 +5,17 @@ import { PageInfo } from './pages/PageInfo';
 import { PageAbout } from './pages/PageAbout';
 import { PageProduct } from './pages/PageProduct';
 
+const products = [
+	{
+		id: 1,
+		title: "The First Product"
+	},
+	{
+		id: 2,
+		title: "The Second Product"
+	}
+];
+
 function App() {
 	return (
 		<div className="App">
@@ -18,8 +29,8 @@ function App() {
 			<Routes>
 				<Route path="/welcome" element={<PageWelcome />} />
 				<Route path="/info" element={<PageInfo />} />
-				<Route path="/product" element={<PageProduct />}>
-					<Route path=":id" />
+				<Route path="/product" element={<PageProduct products={products} />}>
+					<Route path=":id" element={null} />
 				</Route>
 				<Route path="/about" element={<PageAbout />} />
 				<Route path="/" element={<Navigate to="/welcome" replace />} />
