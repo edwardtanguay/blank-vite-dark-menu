@@ -4,7 +4,6 @@ import { PageWelcome } from './pages/PageWelcome';
 import { PageInfo } from './pages/PageInfo';
 import { PageAbout } from './pages/PageAbout';
 import { PageProducts } from './pages/PageProducts';
-import { Product } from './components/Product';
 
 function App() {
 	return (
