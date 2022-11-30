@@ -20,7 +20,7 @@ function App() {
 				<Route path="/welcome" element={<PageWelcome />} />
 				<Route path="/info" element={<PageInfo />} />
 				<Route path="/products" element={<PageProducts />}>
-					<Route path=":id" element={<Product/>}/>
+					<Route path=":id" />
 				</Route>
 				<Route path="/about" element={<PageAbout />} />
 				<Route path="/" element={<Navigate to="/welcome" replace />} />
