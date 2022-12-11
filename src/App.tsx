@@ -7,7 +7,7 @@ import { PageAbout } from './pages/PageAbout';
 function App() {
 	return (
 		<div className="App">
-			<h1>Info Site</h1>
+			<h1>et001-simple-node</h1>
 			<nav>
 				<NavLink to="/welcome">Welcome</NavLink>
 				<NavLink to="/info">Info</NavLink>
