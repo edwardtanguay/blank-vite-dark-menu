@@ -22,3 +22,8 @@ Simple one-page React site created with Vite that has Typescript and Sass instal
 - open VSCode in that directory (`code .`)
 - `npm i`
 - `npm run dev`
+
+
+## more starters, templates and frameworks
+
+https://starter.tanguay.eu
