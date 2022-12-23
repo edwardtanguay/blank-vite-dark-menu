@@ -2,7 +2,7 @@
 
 Simple one-page React site created with Vite that has Typescript and Sass installed, and with React Router and a CLI that enables you to easily create pages
 
-![grafik](https://starters-backend.tanguay.eu)
+![grafik](https://starters-backend.tanguay.eu/images/starters/darkViteSimpleMenu)
 
 ## features
 
