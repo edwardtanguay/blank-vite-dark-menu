@@ -1,26 +1,21 @@
-# blank-vite-dark-menu
+# Dark Vite Menu
 
-This is a minimal React site created with Vite with an implemented React Router menu.
+Simple one-page React site created with Vite that has Typescript and Sass installed, and with React Router and a CLI that enables you to easily create pages
 
-![grafik](https://user-images.githubusercontent.com/446574/200960596-bdc5bd34-ca8c-4c03-9c0f-e67e9bf7d111.png)
+![grafik](https://starters-backend.tanguay.eu)
 
-## includes:
+## features
 
+- built with **Vite**
+- **React Router** menu
+- dark layout
 - TypeScript
-- Sass
-- React Router (v6) 
-- only one Sass file (`App.scss`) - the file `index.css` was deleted
-- CLI with page component creator: `npm run cp`
-- page-load flicker bug fixed in index.html:
-```
-  <style>
-    body {
-      background-color: #333;
-    }
-  </style>
-```
+- one **Sass** file (`index.css` is deleted)
+- **CLI** to easily create pages (`npm run cp Info` creates info page)
+- *good for simple React sites that require a menu*
 
-## how to install
+
+## install
 
 - download zip
 - copy all files to new directory, e.g. `/home/yourname/projects/site001`
