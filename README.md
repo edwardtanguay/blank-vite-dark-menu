@@ -1,8 +1,8 @@
-# Dark Vite Menu
+# Dark React Site with Menu
 
-Simple one-page React site created with Vite that has Typescript and Sass installed, and with React Router and a CLI that enables you to easily create pages
+This is a simple one-page React site created with Vite that has Typescript and Sass installed, and with React Router and a CLI that enables you to easily create pages.
 
-![grafik](https://starters-backend.tanguay.eu/images/starters/darkViteSimpleMenu.png)
+![grafik](https://starters.tanguay.eu/images/starters/darkViteSimpleMenu.png)
 
 ## features
 
@@ -14,7 +14,6 @@ Simple one-page React site created with Vite that has Typescript and Sass instal
 - **CLI** to easily create pages (`npm run cp Info` creates info page)
 - *good for simple React sites that require a menu*
 
-
 ## install
 
 - download zip
@@ -22,7 +21,6 @@ Simple one-page React site created with Vite that has Typescript and Sass instal
 - open VSCode in that directory (`code .`)
 - `npm i`
 - `npm run dev`
-
 
 ## more starters, templates and frameworks
 
