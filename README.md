@@ -1,4 +1,4 @@
-# Dark React Site with Menu
+# React Site with Menu
 
 This is a simple one-page React site created with Vite that has Typescript and Sass installed, and with React Router and a CLI that enables you to easily create pages.
 
